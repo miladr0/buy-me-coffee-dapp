@@ -9,6 +9,8 @@ import {
   Flex,
   Heading,
   useColorModeValue,
+  Alert,
+  AlertIcon,
 } from "@chakra-ui/react";
 
 import { Hero } from "../components/Hero";
@@ -183,6 +185,11 @@ const Index = () => {
     <Container>
       <Flex direction="column" justifyContent="center" alignItems="center">
         <Hero />
+        <Alert status="info">
+          <AlertIcon />
+          Your Metamask wallet should have an account on Goerli testnet network,
+          no need real ETH ;)
+        </Alert>
         {currentAccount ? (
           <Main mt={5}>
             <FormControl id="name">

@@ -2,6 +2,9 @@
 
 A Dapp for sending tip to your friend.
 
+[Demo](https://buy-me-coffee-dapp.vercel.app/)
+
+
 ## how to setup
 1- for deploy new contract go to `contract` folder and follow the README there
 

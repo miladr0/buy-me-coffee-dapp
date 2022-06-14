@@ -22,7 +22,7 @@ import MemoCard from "../components/MemoCard";
 
 declare const window: any;
 
-const contractAddress = "0x262272a81d27A14c3946fCa6714133112ae4b8E0";
+const contractAddress = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS;
 const contractABI = abi.abi;
 const ETH_TIP = "0.0001";
 const DEFAULT_MESSAGE = "Enjoy your coffee ;)";
@@ -48,6 +48,8 @@ const Index = () => {
       if (accounts.length > 0) {
         const account = accounts[0];
         console.log("wallet is connected! " + account);
+
+        getMemos();
       } else {
         console.log("make sure MetaMask is connected");
       }

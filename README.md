@@ -1,4 +1,4 @@
-#  Alchemy, Hardhat, Solidity, Nextjs ❤️ Chakra [chakra-ui](https://github.com/chakra-ui/chakra-ui) and TypeScript
+#  Alchemy, Hardhat, Solidity, Nextjs ❤️ [chakra-ui](https://github.com/chakra-ui/chakra-ui) and TypeScript
 
 A Dapp for sending tip to your friend.
 
